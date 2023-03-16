@@ -154,10 +154,7 @@ int main()
 
     if (playAgain == 'y')
     {
-        // position[9] = {'1', '2', '3', '4', '5', '6', '7', '8', '9'};
         count = 0;
-        // system('cls'); // to clear screen
-        // getchar();
         goto restart;
     }
 
