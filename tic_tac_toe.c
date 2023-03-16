@@ -132,14 +132,14 @@ int main()
     playerName();
     printf("\n\n\t\t\t\t\t\t  Press enter to continue...");
     getchar();
-    system("cls"); // to clear screen
+    system("cls"); 
 
 
     while (count < 9)
     {
         gameTemplate(position);
         play(position);
-        system("cls"); // to clear screen
+        system("cls"); 
     }
 
     gameTemplate(position);
@@ -147,7 +147,6 @@ int main()
     checkWin(position);
 
     getchar();
-    // getchar();
     printf("\n\nWanna play again (y/n) : ");
     scanf("%c", &playAgain);
     getchar();
